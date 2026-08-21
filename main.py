@@ -3,6 +3,7 @@ import pandas
 import datetime as dt
 import random
 import smtplib
+import os
 today = dt.datetime.now()
 today_tuple = (today.month, today.day)
 data = pandas.read_csv("birthdays.csv")
